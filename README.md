@@ -1,10 +1,10 @@
 # Flutter-Firebase
 
-Import Notes: keytool -list -v -keystore C:\Users\user\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+SHA1 KeyWord commend =keytool -list -v -keystore C:\Users\user\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
 
-multiDexEnabled true
-
-implementation 'com.android.support:multidex:1.0.3'
+android->app->build.grad=
+1. multiDexEnabled true
+2. implementation 'com.android.support:multidex:1.0.3'
 
 ### dependencies:
 1. firebase_core: ^1.10.0
